@@ -1,21 +1,12 @@
-.colorsss{
-    background-color: red;
-}
-
-.btns{
-    
-  height: 200px
-  width: 700px;;;
-}
 
 
 body{
     
     text-align: center;
-    background-color: red
+    
 }
 
 .text{
-    
-    tab-size: 40px;
+    color: blue
+    tab-size: 300px;
 }
