@@ -1,0 +1,121 @@
+body {
+  background-color: transparent;
+  margin: 0px;
+}
+table,
+th,
+td {
+  border: 1px solid transparent;
+  height: 20px;
+}
+
+table {
+  width: 100%;
+  height: 400px;
+}
+.language-box{color: rgb(5, 193, 231);
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+  margin-top: 120px;
+  opacity: 0%;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+}
+.language-box-show{
+  opacity: 100%;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+ 
+
+}
+
+.startbtn {
+  position: absolute;
+  text-align: center;
+  border-radius: 50px;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-style: dotted;
+  border-color: red;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
+
+  
+}
+
+
+
+.startbtnexpand {
+  opacity: 10%;
+}
+
+
+.click-image {
+  margin-top: 22px;
+  height: 50px;
+  width: 30px;
+}
+
+.mainbtnitem {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.arabbtn {
+  position: absolute;
+  border-style: double;
+  text-align: center;
+  border-radius: 50px;
+  border-color: rgb(73, 213, 237);
+
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  transition-property: margin-right, margin-top, margin-left, box-shadow;
+  transition-duration: 0.4s; 
+
+}
+
+.engbtn {
+  position: absolute;
+  border-style: double;
+  text-align: center;
+  border-radius: 50px;
+  border-color: rgb(73, 213, 237);
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  width: 100px;
+  transition-property: margin-left, margin-top , box-shadow;
+  transition-duration: 0.4s;
+
+}
+
+.arabic_expand_btn {
+  margin-right: 250px;
+}
+
+.eng_expand_btn {
+  margin-left: 250px;
+}
+
+.arabic_expand_btn2 {
+  margin-right: 250px;
+  margin-top: 100px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.347);
+
+}
+
+.eng_expand_btn2 {
+  margin-left: 250px;
+  margin-top: 100px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.347);
+
+}
