@@ -54,19 +54,8 @@ function circle_motions() {
       }
 
 
-function runstart() {
- 
-  setTimeout(circle_motions,50)
-setTimeout(ff,150)
-startbtn.classList.add("startbtnexpand")
-  
-}
+    function leave(params) {
+      setTimeout(ff_remove,100)
+      setTimeout(circle_motions_remove,250)
 
-function reestart() {
-  startbtn.classList.remove("startbtnexpand")
-  ff_remove( )
-  circle_motions_remove()
-
-
-  
-}
+    }  
