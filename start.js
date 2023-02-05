@@ -2,9 +2,10 @@ let startbtn= document.getElementById('start');
 let arabbtn= document.getElementById('arab');
 let engbtn= document.getElementById('eng');
 let lan_text=document.getElementById("lan-elem")
+let body=document.getElementById("body_id")
 
 startbtn.addEventListener('click',start);
-
+body.addEventListener('click',leave)
 
 
 
@@ -54,7 +55,7 @@ function circle_motions() {
       }
 
 
-    function leave(params) {
+    function leave() {
       setTimeout(ff_remove,100)
       setTimeout(circle_motions_remove,250)
 

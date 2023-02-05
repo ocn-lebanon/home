@@ -1,39 +1,45 @@
 body {
-  background-color: transparent;
-  margin: 0px;
-}
-table,
-th,
-td {
-  border: 1px solid transparent;
-  height: 20px;
+  display: flex;
+  flex-direction: column;
+ 
+  background-color: white;
 }
 
-table {
-  width: 100%;
-  height: 400px;
+.logo{
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+
 }
+
+
+
 .language-box {
-  color: rgb(5, 193, 231);
-  font-size: 20px;
+  color: black;
+  font-size: 18px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 120px;
   opacity: 0%;
   transition-property: opacity;
   transition-duration: 0.4s;
+  background-color: transparent;
+  text-align: center;
+  
 }
 .language-box-show {
   opacity: 100%;
+  
 }
 .box {
   display: flex;
   justify-content: center;
   background-color: transparent;
   height: 300px;
-
+  height: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: transparent;
 }
 
 .startbtn {
@@ -71,8 +77,8 @@ table {
   border-style: double;
   text-align: center;
   border-radius: 50px;
-  border-color: rgb(73, 213, 237);
-
+  border-color: black;
+  border-style: dotted;
   background-color: white;
   height: 100px;
   width: 100px;
@@ -85,12 +91,12 @@ table {
   border-style: double;
   text-align: center;
   border-radius: 50px;
-  border-color: rgb(73, 213, 237);
   background-color: rgb(255, 255, 255);
   height: 100px;
   width: 100px;
   transition-property: margin-left, margin-top, box-shadow;
-  transition-duration: 0.4s;
+  transition-duration: 0.4s;  border-color: black;
+  border-style: dotted;
 }
 
 .arabic_expand_btn {
@@ -112,4 +118,3 @@ table {
   margin-top: 100px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.347);
 }
-
