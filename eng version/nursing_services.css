@@ -1,0 +1,183 @@
+body {
+  margin: 0px;
+}
+/* .nav_bar {
+  background-color: black;
+  height: 100px;
+  padding-top: 20px;
+} */
+.logo {
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+  color: transparent;
+  text-align: center;
+}
+.language {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  background-color: transparent;
+  border-color: #e91268;
+  border-style: dotted;
+  height: 30px;
+  width: 50px;
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+  border-width: 2px;
+}
+.lang_txt_style{
+  margin-top: 5px;
+  color: #e91268;
+  font-size: 15px
+  
+  
+}
+.one {
+  position: absolute;
+  left: 20px;
+  background-color: red;
+  height: 45px;
+  width: 170px;
+  border-radius: 10px;
+  margin-top: 20px;
+  left: -2000px;
+  transition-property: left;
+  transition-duration: 0.6s;
+
+  text-align: center;
+}
+
+.one_float {
+  left: 20px;
+}
+.two {
+  position: absolute;
+  right: -2000px;
+  background-color: red;
+  height: 45px;
+  width: 170px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition-property: right;
+  transition-duration: 0.6s;
+  text-align: center;
+
+}
+
+.two_float {
+  right: 20px;
+}
+
+.three {
+  position: absolute;
+  top: 120px;
+  left: -2000px;
+  background-color: red;
+  height: 45px;
+  width: 170px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+
+  transition-property: left;
+  transition-duration: 0.6s;
+}
+.three_float {
+  left: 20px;
+}
+
+.four {
+  position: absolute;
+  top: 120px;
+  right: -2000px;
+  background-color: red;
+  height: 45px;
+  width: 170px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+
+  transition-property: right;
+  transition-duration: 0.6s;
+}
+.four_float {
+  right: 20px;
+}
+
+.five {
+  position: absolute;
+  top: 200px;
+  left: -2000px;
+  background-color: red;
+  height: 45px;
+  width: 170px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+
+  transition-property: left;
+  transition-duration: 0.6s;
+}
+.five_float {
+  left: 20px;
+}
+
+.six {
+  position: absolute;
+  top: 200px;
+  right: -2000px;
+  background-color: red;
+  height: 45px;
+  width: 170px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+
+  transition-property: right;
+  transition-duration: 0.6s;
+}
+.six_float {
+  right: 20px;
+}
+
+.item_txt{
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.startbtn {
+  margin: 0 auto;
+  position: none;
+  margin-top: 200px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #e91268;
+  transition-property: margin-top, top;
+  transition-duration: 0.4s;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
+}
+
+.start_btn_animate {
+  top: 10px;
+  margin-top: -120px;
+}
+.txt_show {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #e91268;
+  transition-property: margin-top;
+  transition-duration: 0.2s;
+}
+
+.txt_animated_show {
+  margin-top: 65px;
+}
+
