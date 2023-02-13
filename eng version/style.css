@@ -1,6 +1,3 @@
-
-
-
 .container_box {
   margin-top: 20px;
   background-color: transparent;
@@ -14,25 +11,18 @@
   height: 200px;
   width: 350px;
   background-color: white;
+  border-color: #e91268;
   border-radius: 40px;
+  border-style: dotted;
   box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
-}
+  border-width: 1px;
 
-.medical_equipment_box {
-  display: inline-block;
-  margin-top: 20px;
-  height: 200px;
-  width: 350px;
-  background-color: white;
-  border-radius: 40px;
-  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
 }
-
 
 .logo {
-  background-color: black;
-  height: 50px;
-  width: 50px;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
   color: white;
   text-align: center;
 }
@@ -40,7 +30,7 @@
   float: left;
   margin-left: 30px;
   margin-top: 10px;
-  color: rgb(7, 125, 250);
+  color: #e91268;
 }
 img {
   width: 350px;
@@ -56,24 +46,22 @@ img {
   background-color: white;
   margin-right: 20px;
   margin-top: 5px;
-color: white;
+  color: white;
   border-radius: 50px;
-  border-color: rgb(7, 125, 250);
+  border-width: 2px;
+  border-color: #e91268;
   box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
   border-style: dotted;
-
 }
-.expore_txt{
-color: rgb(7, 125, 250);
-margin-top: 3px;
+.expore_txt {
+  color: #e91268;
+  margin-top: 3px;
 }
 
 @media screen and (min-width: 820px) {
-
-  
   .medical_equipment_box {
     background-color: white;
-    
+
     height: 400px;
   }
   .nurse_box {
@@ -85,7 +73,7 @@ margin-top: 3px;
   .medical_equipment_box {
     margin-left: 0px;
   }
-  .nurse_box{
+  .nurse_box {
     margin-top: 20px;
   }
 }

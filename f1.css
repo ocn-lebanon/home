@@ -5,19 +5,16 @@ body {
   background-color: white;
 }
 
-.logo{
-  background-color: black;
-  height: 50px;
-  width: 50px;
-  color: white;
-  text-align: center;
 
+.logo {
+  height: 60px; 
+  width: 60px;
 }
 
 
 
 .language-box {
-  color: black;
+  color: #50c8ee;;
   font-size: 18px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 120px;
@@ -50,7 +47,8 @@ body {
   height: 100px;
   width: 100px;
   border-style: dotted;
-  border-color: red;
+  border-width: 2px;
+  border-color: #e91268;
   transition-property: opacity;
   transition-duration: 0.4s;
   box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
@@ -69,7 +67,7 @@ body {
 .mainbtnitem {
   font-size: 18px;
   padding-top: 20px;
-  color: black;
+  color: #e91268;
 }
 
 .arabbtn {
@@ -77,8 +75,9 @@ body {
   border-style: double;
   text-align: center;
   border-radius: 50px;
-  border-color: black;
+  border-color:#50c8ee;
   border-style: dotted;
+  border-width: 2px;
   background-color: white;
   height: 100px;
   width: 100px;
@@ -91,11 +90,13 @@ body {
   border-style: double;
   text-align: center;
   border-radius: 50px;
+  border-width: 2px;
   background-color: rgb(255, 255, 255);
   height: 100px;
   width: 100px;
   transition-property: margin-left, margin-top, box-shadow;
-  transition-duration: 0.4s;  border-color: black;
+  transition-duration: 0.4s; 
+  border-color: #50c8ee;
   border-style: dotted;
 }
 

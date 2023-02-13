@@ -7,10 +7,10 @@ body {
   padding-top: 20px;
 } */
 .logo {
-  background-color: wheat;
-  height: 50px;
-  width: 50px;
-  color: black;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+  color: transparent;
   text-align: center;
 }
 .language {
@@ -18,10 +18,21 @@ body {
   right: 10px;
   top: 5px;
   background-color: transparent;
-  height: 50px;
+  border-color: #e91268;
+  border-style: dotted;
+  height: 30px;
   width: 50px;
   color: black;
   text-align: center;
+  border-radius: 15px;
+  border-width: 2px;
+}
+.lang_txt_style{
+  margin-top: 5px;
+  color: #e91268;
+  font-size: 15px
+  
+  
 }
 .one {
   position: absolute;
@@ -147,7 +158,8 @@ body {
   height: 100px;
   width: 100px;
   border-style: dotted;
-  border-color: rgb(0, 123, 255);
+  border-width: 2px;
+  border-color: #e91268;
   transition-property: margin-top, top;
   transition-duration: 0.4s;
   box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
@@ -155,44 +167,17 @@ body {
 
 .start_btn_animate {
   top: 10px;
-  margin-top: -100px;
+  margin-top: -120px;
 }
 .txt_show {
   margin-top: 40px;
   font-size: 20px;
-  color: rgb(0, 123, 255);
+  color: #e91268;
   transition-property: margin-top;
   transition-duration: 0.2s;
 }
 
 .txt_animated_show {
-  margin-top: 60px;
-}
-.toggle_eng {
-  background-color: pink;
-  height: 40px;
-  width: 50px;
-  position: absolute;
-  right: 50px;
-  top: 0px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-style: dotted;
+  margin-top: 65px;
 }
 
-.toggle_arab {
-  background-color:white;
-  height: 40px;
-  width: 50px;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-style: dotted;
-  border-color: rgb(0, 123, 255);
-}
-.lang_txt{
-  margin-top: 11px;
-  color: rgb(0, 123, 255);
-}
