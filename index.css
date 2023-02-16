@@ -1,121 +1,118 @@
 body {
   display: flex;
   flex-direction: column;
- 
+  width: 100%;
+  /* text-align: center; */
+  /* align-items: center; */
+  justify-content: center;
   background-color: white;
+  margin: 0px;
 }
 
-
 .logo {
-  height: 60px; 
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 60px;
   width: 60px;
 }
 
-
-
-.language-box {
-  color: #50c8ee;;
-  font-size: 18px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-top: 120px;
+.lag_box {
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
   opacity: 0%;
-  transition-property: opacity;
+  transition-property: opacity , color;
   transition-duration: 0.4s;
+
+
+}
+.btn_box {
+  margin-top: 50px;
   background-color: transparent;
-  text-align: center;
-  
-}
-.language-box-show {
-  opacity: 100%;
-  
-}
-.box {
+  height: 100px;
+  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+/* ############################################## */
+/* bottons */
+.arab_btn_box {
+  opacity: 0%;
+  position: relative;
+  margin-right: 30px;
+  padding-top: 1px;
+  text-align: center;
   background-color: transparent;
-  height: 300px;
-  height: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.startbtn {
-  position: absolute;
-  text-align: center;
-  border-radius: 50px;
-  background-color: white;
-  height: 100px;
-  width: 100px;
-  border-style: dotted;
-  border-width: 2px;
-  border-color: #e91268;
-  transition-property: opacity;
-  transition-duration: 0.4s;
-  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
-}
-
-.startbtnexpand {
-  opacity: 10%;
-}
-
-.click-image {
-  margin-top: 22px;
   height: 50px;
-  width: 30px;
-}
-
-.mainbtnitem {
-  font-size: 18px;
-  padding-top: 20px;
-  color: #e91268;
-}
-
-.arabbtn {
-  position: absolute;
-  border-style: double;
-  text-align: center;
-  border-radius: 50px;
-  border-color:#50c8ee;
-  border-style: dotted;
-  border-width: 2px;
-  background-color: white;
-  height: 100px;
   width: 100px;
-  transition-property: margin-right, margin-top, margin-left, box-shadow;
+  border-radius: 40px;
+  border-style: dotted;
+  border-color: #50c8ee;
+  border-width: 2px;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
+  transition-property: opacity ;
   transition-duration: 0.4s;
 }
 
-.engbtn {
-  position: absolute;
-  border-style: double;
+.eng_btn_box {
+  opacity: 0%;
+  position: relative;
+  padding-top: 1px;
   text-align: center;
-  border-radius: 50px;
-  border-width: 2px;
-  background-color: rgb(255, 255, 255);
-  height: 100px;
+  background-color: transparent;
+  height: 50px;
   width: 100px;
-  transition-property: margin-left, margin-top, box-shadow;
-  transition-duration: 0.4s; 
-  border-color: #50c8ee;
+  border-radius: 40px;
+  border-width: 2px;
   border-style: dotted;
+  border-color: #50c8ee;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.347);
+  transition-property: opacity ;
+  transition-duration: 0.4s;
+}
+.text {
+  font-size: 16px;
+  color: #e91268;
+  font-family: "Times New Roman", Times, serif;
+}
+/* ############################################## */
+/* ############################################## */
+/* Animations */
+.lang_box_animation {
+  opacity: 100%;
+  color:#50c8ee;
+}
+.arab {
+  opacity: 100%;
+}
+.eng {
+  opacity: 100%;
+
 }
 
-.arabic_expand_btn {
-  margin-right: 250px;
-}
+/* ############################################## */
+@media screen and (min-width: 820px) {
+  .medical_equipment_box {
+    background-color: white;
 
-.eng_expand_btn {
-  margin-left: 250px;
+    height: 400px;
+  }
+  .nurse_box {
+    margin-left: 40px;
+    height: 400px;
+  }
 }
-
-.arabic_expand_btn2 {
-  margin-right: 250px;
-  margin-top: 100px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.347);
-}
-
-.eng_expand_btn2 {
-  margin-left: 250px;
-  margin-top: 100px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.347);
+@media screen and (max-width: 821px) {
+  .medical_equipment_box {
+    margin-left: 0px;
+  }
+  .nurse_box {
+    margin-top: 20px;
+  }
 }
